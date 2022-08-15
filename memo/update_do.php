@@ -8,7 +8,7 @@ if (!$stmt) {
   die($db->error);
 }
 
-$id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
+$id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
 $memo = filter_input(INPUT_POST, 'memo', FILTER_SANITIZE_SPECIAL_CHARS);
 
 $stmt->bind_param('si', $memo, $id);
