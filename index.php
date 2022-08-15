@@ -107,6 +107,9 @@
         <abbr title="Hypertext Preprocessor">PHP</abbr>: <samp><?php echo phpversion(); ?></samp>
       </p>
       <p class="text" id="footnote-1"><small><sup>1</sup> File: <samp>index.php</samp></small></p>
+      <a class="text" href="/lesson01/">lesson01</a>
+      <a class="text" href="/lesson03/">lesson03</a>
+      <a class="text" href="/memo/">memo</a>
       <hr>
       <p class="text">Diese Seite auf: <?php echo $switch_language; ?></p>
     <?php endif; ?>
